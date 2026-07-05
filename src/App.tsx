@@ -1,4 +1,3 @@
-import Marquee from "react-fast-marquee";
 import ServicesSection from "./components/cards";
 import FooterSection from "./components/footer";
 import HeroSection from "./components/hero";
