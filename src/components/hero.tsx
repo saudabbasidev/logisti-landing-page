@@ -3,8 +3,8 @@
 const HeroSection = () => {
   return (
     <>
-      <section className="flex flex-col justify-center gap-12">
-        <div className="flex gap-5 justify-between px-10  max-md:flex-col">
+      <section className="flex flex-col justify-center">
+        <div className="flex gap-5 justify-between px-10  max-md:flex-col lg:h-65">
           <h1 className="text-6xl  max-sm:text-4xl  font-extrabold pt-30 px-5 ">
             Grow Your <span className="text-yellow-500">Business</span>
             <br /> With Our
@@ -21,7 +21,7 @@ const HeroSection = () => {
           <img
             src="/truck.png"
             alt=""
-            className="object-contain md:max-w-3xl mx-auto p-5 mt-3"
+            className="object-contain md:max-w-3xl mx-auto p-5"
           />
         </div>
       </section>
