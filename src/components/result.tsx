@@ -20,7 +20,7 @@ const ResultSection = () => {
   return (
     <>
       <section className="py-20">
-        <div className="flex justify-between items-center sm:gap-10 px-10 mt-20 pb-10">
+        <div className="flex justify-between sm:items-center sm:gap-10 mt-20 pb-10  sm:px-10 px-2">
           <h1 className="font-semibold md:text-[40px] text-3xl max-sm:text-2xl ">
             Our All Logistic
             <br />
@@ -31,7 +31,7 @@ const ResultSection = () => {
             factory of the end customer
           </p>
         </div>
-        <div className="relative">
+        <div className="relative" data-aos="fade-up">
           <img
             src="/container.png"
             alt=""
@@ -45,6 +45,7 @@ const ResultSection = () => {
         <section className="flex px-10 gap-3 max-md:gap-10 max-md:flex-wrap items-center justify-center">
           {data.map((item, index) => (
             <div
+              data-aos="fade-up"
               key={index}
               className="bg-linear-to-b from-gray-800 to-[#0F131B] text-yellow-500 p-10 rounded-2xl max-md:max-w-60 w-100 h-30"
             >

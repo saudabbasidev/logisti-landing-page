@@ -42,6 +42,7 @@ export default function ServicesSection() {
             return (
               <div
                 key={index}
+                data-aos="fade-up"
                 className={`${service.color} rounded-3xl px-6 py-3 h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl`}
               >
                 {/* Top */}

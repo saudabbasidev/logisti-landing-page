@@ -17,7 +17,7 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <div>
+        <div data-aos="fade-up">
           <img
             src="/truck.png"
             alt=""
@@ -27,7 +27,7 @@ const HeroSection = () => {
       </section>
 
     
-        <div className="flex justify-between items-center sm:gap-10 px-10 mt-20 pb-10">
+        <div className="flex justify-between sm:items-center sm:gap-10 sm:px-10 px-2 mt-20 pb-10">
           <p className="font-thin text-gray-300 text-sm whitespace-normal w-60">
             Cargo, Also known as freight, refers to goods or produce being
             transported from one place to another - by water, air or land.
