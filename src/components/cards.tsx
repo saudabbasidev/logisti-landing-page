@@ -43,7 +43,7 @@ export default function ServicesSection() {
               <div
                 key={index}
                 data-aos="fade-up"
-                className={`${service.color} rounded-3xl px-6 py-3 h-[250px] flex flex-col justify-between transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl`}
+                className={`${service.color} rounded-3xl px-6 py-3 sm:h-[250px] h-auto flex flex-col justify-between transition-all duration-700 hover:-translate-y-2 hover:shadow-2xl`}
               >
                 {/* Top */}
                 <div>
@@ -51,11 +51,11 @@ export default function ServicesSection() {
                     <Icon size={24} strokeWidth={2} />
                   </div>
 
-                  <h3 className="mt-2 font-bold text-2xl text-slate-900">
+                  <h3 className="mt-2 font-bold text-2xl max-sm:text-lg text-slate-900">
                     {service.title}
                   </h3>
 
-                  <p className="mt-3 text-sm font-light  text-slate-900/90">
+                  <p className="mt-3 text-sm max-sm:text-xs font-light  text-slate-900/90">
                     {service.description}
                   </p>
                 </div>

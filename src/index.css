@@ -3,6 +3,10 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
 body{
   font-family: "Sora",sans-serif;
   overflow-x: hidden;
