@@ -1,10 +1,10 @@
 const FooterSection = () => {
-  const links = [
-    "https://images.seeklogo.com/logo-png/32/2/deliveroo-logo-png_seeklogo-329512.png",
-    "https://logodownload.org/wp-content/uploads/2018/03/logitech-logo-01.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/960px-Salesforce.com_logo.svg.png",
-    "https://upload.wikimedia.org/wikipedia/commons/2/2e/TCS_Pakistan_logo_%282024%29.png",
-  ];
+  // const links = [
+  //   "https://images.seeklogo.com/logo-png/32/2/deliveroo-logo-png_seeklogo-329512.png",
+  //   "https://logodownload.org/wp-content/uploads/2018/03/logitech-logo-01.png",
+  //   "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/960px-Salesforce.com_logo.svg.png",
+  //   "https://upload.wikimedia.org/wikipedia/commons/2/2e/TCS_Pakistan_logo_%282024%29.png",
+  // ];
   return (
     <>
       <section>
@@ -22,7 +22,7 @@ const FooterSection = () => {
         </div>
         <div>
           <ul className="grayscale flex items-center justify-center max-sm:gap-8 gap-20 mt-15">
-            {links.map((i, index) => (
+            {/* {links.map((i, index) => (
               <img
                 className="object-contain w-[14%]"
                 data-aos="fade-up"
@@ -30,7 +30,7 @@ const FooterSection = () => {
                 key={index}
                 alt=""
               />
-            ))}
+            ))} */}
           </ul>
         </div>
         <h1 className="flex justify-center items-center py-20">
